@@ -41,9 +41,9 @@ const AddScriptToHead = () => {
 
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = "https://multilipistorage.blob.core.windows.net/static/JS/page_translations.js";
+    // script.src = "https://multilipistorage.blob.core.windows.net/static/JS/page_translations.js";
     // script.src = "https://multilipistorage.blob.core.windows.net/media-seo/seo-scripts/page-trans-testing.js";
-    // script.src = "https://multilipistorage.blob.core.windows.net/media-seo/seo-scripts/page-trans-test.js";
+    script.src = "https://multilipistorage.blob.core.windows.net/media-seo/seo-scripts/page-trans-test.js";
     script.setAttribute('data-pos-x', "50");
     script.setAttribute('data-pos-y', "50");
     script.setAttribute('multilipi-key', "23fe7f99-b537-4fa5-852b-520093fff3db");
