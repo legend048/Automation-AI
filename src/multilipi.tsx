@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 const AddScriptToHead = () => {           
 
   useEffect(() => {
-    const languages = ['hi', 'ar', 'gu']; // Move array inside useEffect
+    const languages = ['hi', 'ar', 'af', 'sq']; // Move array inside useEffect
     const links: HTMLLinkElement[] = [];
   
     // Add a link tag for each language
@@ -46,7 +46,7 @@ const AddScriptToHead = () => {
     // script.src = "https://multilipistorage.blob.core.windows.net/media-seo/seo-scripts/page-trans-test.js";
     script.setAttribute('data-pos-x', "50");
     script.setAttribute('data-pos-y', "50");
-    script.setAttribute('multilipi-key', "9a799823-51c4-41e3-9767-de90be2986fc");
+    script.setAttribute('multilipi-key', "23fe7f99-b537-4fa5-852b-520093fff3db");
     script.setAttribute('mode', "auto");
     script.crossOrigin = "anonymous";
     // script.async = true;
