@@ -45,7 +45,7 @@ const AddScriptToHead = () => {
     // script.src = "https://multilipistorage.blob.core.windows.net/media-seo/seo-scripts/page-trans-testing.js";
     // script.src = "https://multilipistorage.blob.core.windows.net/media-seo/seo-scripts/page-trans-test.js";
     // script.src = "https://multilipistorage.blob.core.windows.net/static/seo-scripts/page_translations_main.js";
-    script.src = "https://storagebhashini.blob.core.windows.net/static/js/script.js";
+    script.src = "https://storagebhashini.blob.core.windows.net/static-wtmc/js/script.js";
     script.setAttribute('data-pos-x', "50");
     script.setAttribute('data-pos-y', "50");
     // script.setAttribute('multilipi-key', "9a799823-51c4-41e3-9767-de90be2986fc");
